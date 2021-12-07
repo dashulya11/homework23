@@ -1,4 +1,5 @@
-function sum(num = 0) {
+function sum() {
+    let num = 0;
     return function (doubleNum) {
         return num += doubleNum;
     };
